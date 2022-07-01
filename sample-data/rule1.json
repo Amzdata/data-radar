@@ -1,0 +1,19 @@
+[
+    {
+        "type": "column",
+        "column_name": "order_status",
+        "operation": "in",
+        "values": [
+            "begin",
+            "shpping",
+            "paied",
+            "cancel"
+        ]
+    },
+    {
+        "type": "table",
+        "metric_name": "rows_count",
+        "operation": ">",
+        "values": 1000
+    }
+]
